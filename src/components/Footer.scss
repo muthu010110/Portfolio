@@ -1,0 +1,44 @@
+.site-footer {
+  background: #111;
+  color: #ccc;
+  padding: 1.5rem 0;
+  font-size: 0.9rem;
+  border-top: 2px solid #00d4ff; // accent line on top
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+
+    @media (min-width: 768px) {
+      flex-direction: row;
+      justify-content: space-between;
+      text-align: left;
+    }
+  }
+
+  span {
+    color: #fff;
+  }
+
+  a {
+    color: #ccc;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: #00d4ff; // accent color on hover
+    }
+  }
+
+  svg {
+    stroke: currentColor;
+    transition: stroke 0.3s ease;
+    margin-right: 20px;
+
+    &:hover {
+      stroke: #00d4ff;
+    }
+  }
+}

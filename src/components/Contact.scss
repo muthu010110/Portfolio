@@ -1,0 +1,115 @@
+.contact {
+  padding: 4rem 2rem;
+  background: #111;
+  text-align: center;
+  position: relative;
+  color: #fff;
+
+  .section-title {
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+    font-weight: 700;
+    color: #00d4ff;
+    position: relative;
+    display: inline-block;
+
+    &::after {
+      content: "";
+      display: block;
+      width: 60px;
+      height: 3px;
+      background: #00d4ff;
+      margin: 0.5rem auto 0;
+      border-radius: 2px;
+      animation: slideIn 1s ease forwards;
+    }
+  }
+
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #1a1a1a;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 212, 255, 0.15);
+    animation: fadeUp 1s ease forwards;
+
+    label {
+      display: block;
+      text-align: left;
+      margin-bottom: 1.5rem;
+
+      span {
+        display: block;
+        margin-bottom: 0.5rem;
+        font-weight: 600;
+        color: #00d4ff;
+        font-size: 0.95rem;
+      }
+
+      input,
+      textarea {
+        width: 90%;
+        padding: 0.9rem 1.2rem;
+        border: 2px solid #333;
+        border-radius: 10px;
+        font-size: 1rem;
+        background: #111;
+        color: #fff;
+        transition: all 0.3s ease;
+
+        &:focus {
+          border-color: #00d4ff;
+          background: #1a1a1a;
+          outline: none;
+          box-shadow: 0 0 0 3px rgba(0, 212, 255, 0.2);
+        }
+      }
+
+      textarea {
+        min-height: 120px;
+        resize: none;
+      }
+    }
+
+    .btn {
+      background: #00d4ff;
+      border: none;
+      color: #111;
+      font-weight: 600;
+      padding: 0.9rem 2rem;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      font-size: 1rem;
+
+      &:hover {
+        transform: scale(1.05);
+        box-shadow: 0 8px 20px rgba(0, 212, 255, 0.4);
+        background: #00a3c9;
+        color: #fff;
+      }
+    }
+  }
+}
+
+/* Animations */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    width: 0;
+  }
+  to {
+    width: 60px;
+  }
+}
