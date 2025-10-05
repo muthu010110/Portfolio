@@ -2,6 +2,7 @@ import React from 'react';
 import './Hero.scss';
 import herophoto from './assets/herophoto.png';
 
+
 function Hero() {
   return (
     <section  className="hero-container" id="home">
@@ -16,7 +17,9 @@ function Hero() {
         </p>
 
         <div className="hero-cta">
-          <a className="btn" href="/SHRI MUTHU KUMARAN K.pdf" target="_blank" rel="noreferrer">
+          <a className="btn" href="\resume\Shrimuthukumaran-Resume.pdf" 
+          download ='Shri-muthu-kumaran-resume'
+          target="_blank" rel="noreferrer">
             Download Resume
           </a>
           <a className="btn " href="#project">
@@ -27,7 +30,7 @@ function Hero() {
         <div className="hero-socials">
           <a href="mailto:Shrimuthukumaran5@gmail.com">📧 Email</a>
           <a href="https://github.com/muthu010110" target="_blank" rel="noreferrer">💻 GitHub</a>
-          <a href="https://linkedin.com/in/yourlinkedin" target="_blank" rel="noreferrer">🔗 LinkedIn</a>
+          <a href="https://www.linkedin.com/in/shri-muthukumaran-b8aa76255" target="_blank" rel="noreferrer">🔗 LinkedIn</a>
         </div>
       </div>
 

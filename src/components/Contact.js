@@ -14,7 +14,7 @@ export default function Contact() {
     const body = encodeURIComponent(
       form.message + "\n\n" + "Email: " + form.email
     );
-    window.location.href = `mailto:Shrimuthukumaran5@gmail.com'?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:Shrimuthukumaran5@gmail.com?subject=${subject}&body=${body}`;
   }
 
   return (

@@ -15,7 +15,7 @@ function Header() {
                 <a href='#skills'>Skills</a>
                 <a href='#project'>Projects</a>
                 <a href='#contact'>Contact</a>
-                <a className='btn' href='' target='_blank' rel='noreferrer'> Resume</a>
+                <a className='btn' href='\resume\Shrimuthukumaran-Resume.pdf' target='_blank' rel='noreferrer'> Resume</a>
             </nav>
         </div>
     </div>

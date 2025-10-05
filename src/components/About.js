@@ -26,7 +26,7 @@ export default function About() {
       <h3>Projects</h3>
       <ul>
         <li><strong>Portfolio Website:</strong> Built a responsive portfolio using React and SCSS with animations.</li>
-        <li><strong>Bank Transfer Simulation:</strong> Java program simulating transactions with JDBC and rollback support.</li>
+        <li><strong>Mini Bank Transfer Simulation:</strong> Java program simulating transactions with JDBC and rollback support.</li>
       </ul>
     </section>
   );
