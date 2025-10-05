@@ -11,11 +11,11 @@ export default function Footer() {
         </div>
 
         <div className="flex gap-4">
-          <a href="https://github.com/" target="_blank" rel="noopener noreferrer"
+          <a href="https://github.com/muthu010110" target="_blank" rel="noopener noreferrer"
              className="hover:text-white transition-colors">
             <Github size={30} />
           </a>
-          <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer"
+          <a href="https://www.linkedin.com/in/shri-muthukumaran-b8aa76255" target="_blank" rel="noopener noreferrer"
              className="hover:text-white transition-colors">
             <Linkedin size={30} />
           </a>
